@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #bdbdbd;
+    font-weight:bold
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    max-width: 850px;
+    width: 100%;
+    padding: clamp(20px, 4vw, 50px);
+    background-color: #ffffff;
+    border-radius: 1px;
+}
+
+
+
+.laranja {
+    color: #ff6600;
+}
+
+.image2 {
+    display: block;
+    width: 100%;
+    max-width:750px;
+    height: 100%;
+    max-height: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+
+.image {
+    display: block;
+    width: 100%;
+    max-width:750px;
+    height: 100%;
+    max-height: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.turismo {
+    color: #003cff;
+    font-weight: bold;
+}
+
+h3 {
+    margin: 30px 0 10px;
+    font-family: sans-serif;
+}
+
+hr {
+    margin: 50px 0px 50px;
+
+}
+
+#fim {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.roxo {
+    color: purple;
+}
+
+.verde {
+    color: green;
+}
+
+.rosa {
+    color: pink;
+}
+
+.amarelo {
+    color: lightseagreen;
+}
+
